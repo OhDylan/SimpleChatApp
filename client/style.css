@@ -21,7 +21,7 @@ body{
 }
 
 #message-container div:nth-child(2n){
-    background-color: #808080;
+    background-color: #FFF;
 }
 
 #input-container{
