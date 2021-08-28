@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#message-container{
+    border: 1px solid black;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 3px;
+}
+
+#message-container div{
+    background-color: #CCC;
+    padding: 5px;
+}
+
+#message-container div:nth-child(2n){
+    background-color: #808080;
+}
+
+#input-container{
+    width: 1200px;
+}
+
+.input-box{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+}
+
+label{
+    display: inline-block;
+    clear:left;
+    width: 100px;
+    text-align: right;
+}
+
+input{
+    display: inline-block;
+    width: 700px;
+}
